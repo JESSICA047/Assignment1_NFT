@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contents{
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.contents .card{
+    background-color:hsl(216, 50%, 16%);;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contents .card h1{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.contents .card p{
+    color: hsl(215, 51%, 70%);
+    margin: 10px;
+}
+
+.contents .card img{
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+}
+
+.contents .card .info-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contents .card .info-row .money{
+    display: flex;
+    color: hsl(175, 100%, 50%);
+    font-size: 15px;
+    margin-left: 5px;
+    align-items: center;
+    margin: 13px;
+}
+
+.contents .card .money img{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 16px;
+    margin-right: 8px;
+    
+}
+
+.contents .card .money p{
+    display: flex;
+    align-self: start;
+    color: turquoise;
+}
+
+.contents .card .time{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contents .card .time img{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    height: 20px;
+    align-items: center;
+    width: 16px;
+    margin-right: 8px;
+    display: flex;
+}
+
+.contents .card .creator{
+    display: flex;
+    align-items: center;
+} 
+
+.contents .card .creator img{
+    height: 40px;
+    align-items: center;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.contents .card .creator span{
+    color: white;
+}
+
+.contents .card .creator p{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+
+hr{
+    background-color: hsl(215, 32%, 27%);
+    margin: 10px;
+    border: 1px solid hsl(215, 51%, 70%) ;
+}
